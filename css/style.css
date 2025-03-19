@@ -39,3 +39,54 @@ color: var(--accent-color);
     line-height: 1.09;
     /* 17.52px */
 }
+
+/* section hero */
+.hero-title{
+    color: var(--main-color);
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1.1;
+     /* 77px */
+}
+
+.hero-span{
+    color: var(--accent-text);
+}
+
+.hero-btn{
+    color: var(--main-color);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 2.31;
+    background-color: var(--accent-color);
+}
+
+/* section meet */
+
+.meet-title{
+    color: var(--accent-color);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.meet-text{
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.31; /* 231.25% */
+}
+
+.meet-btn{
+    color: var(--accent-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 2.31; /* 231.25% */
+    background-color: var(--main-color);
+    border-radius: 38.5px;
+    border: 2px solid var(--accent-color);
+}
