@@ -120,3 +120,28 @@ color: var(--accent-color);
     /* 231.25% */
     background-color: var(--accent-color);
 }
+
+.premium-title{
+    color: var(--accent-color);
+font-size: 40px;
+font-weight: 700;
+line-height: 1.5;
+}
+
+.premium-text{
+    color: var(--text-color);
+font-size: 16px;
+font-weight: 400;
+line-height: 2.31; /* 231.25% */
+}
+
+.premium-btn{
+    border-radius: 38.5px;
+border: 2px solid var(--accent-color);
+color: var(--accent-color);
+
+text-align: center;
+font-size: 16px;
+font-weight: 600;
+line-height: 2.31; /* 231.25% */
+}
