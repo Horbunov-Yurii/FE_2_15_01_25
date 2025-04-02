@@ -9,6 +9,14 @@ body{
     background-color: bisque;
     font-family: Poppins;
 }
+.container{
+    width: 1176px;
+    margin: 0 auto;
+    outline: 1px solid red;
+padding-left: 23px; 
+padding-right: 23px;
+
+}
 /* section header */
 .header-logo{
     color: var(--main-color);
