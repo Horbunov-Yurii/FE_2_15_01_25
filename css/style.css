@@ -1,46 +1,62 @@
-:root{
+:root {
     --accent-color: #E43071;
     --accent-text: #FFC1D8;
     --main-color: #FFFFFF;
     --text-color: #424242;
     --avtor2-color: #969BAB;
 }
-body{
+
+body {
     background-color: bisque;
     font-family: Poppins;
 }
-.container{
+
+.container {
     width: 1176px;
     margin: 0 auto;
     outline: 1px solid red;
-padding-left: 23px; 
-padding-right: 23px;
+    padding-left: 23px;
+    padding-right: 23px;
 
 }
+
 /* section header */
-.header-logo{
-    color: var(--main-color);
-        text-align: center;
-        font-size: 40px;
-        font-weight: 800;
-        line-height: 1.09;
-        /* 43.8px */
+
+.header {
+
+padding-top: 25px;
+padding-bottom: 26px;
+
 }
-.header-color{
+
+
+
+.header-logo {
+    color: var(--main-color);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.09;
+    /* 43.8px */
+}
+
+.header-color {
     color: var(--accent-text);
 }
-.header-link{
+
+.header-link {
     color: var(--main-color);
-        text-align: center;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.09;
-        /* 17.52px */
-       
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.09;
+    /* 17.52px */
+
 }
-.header-btn{
+
+.header-btn {
     background-color: var(--main-color);
-color: var(--accent-color);
+    color: var(--accent-color);
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -49,20 +65,20 @@ color: var(--accent-color);
 }
 
 /* section hero */
-.hero-title{
+.hero-title {
     color: var(--main-color);
     text-align: center;
     font-size: 70px;
     font-weight: 700;
     line-height: 1.1;
-     /* 77px */
+    /* 77px */
 }
 
-.hero-span{
+.hero-span {
     color: var(--accent-text);
 }
 
-.hero-btn{
+.hero-btn {
     color: var(--main-color);
     text-align: center;
     font-family: "Open Sans";
@@ -74,42 +90,44 @@ color: var(--accent-color);
 
 /* section meet */
 
-.meet-title{
+.meet-title {
     color: var(--accent-color);
     font-size: 40px;
     font-weight: 700;
     line-height: 1.5;
 }
 
-.meet-text{
+.meet-text {
     color: var(--text-color);
     font-size: 16px;
     font-weight: 400;
-    line-height: 2.31; /* 231.25% */
+    line-height: 2.31;
+    /* 231.25% */
 }
 
-.meet-btn{
+.meet-btn {
     color: var(--accent-color);
     text-align: center;
     font-size: 16px;
     font-weight: 600;
-    line-height: 2.31; /* 231.25% */
+    line-height: 2.31;
+    /* 231.25% */
     background-color: var(--main-color);
     border-radius: 38.5px;
     border: 2px solid var(--accent-color);
 }
 
 /* section become */
-.become-title{
+.become-title {
     color: var(--main-color);
     text-align: center;
     text-shadow: 0px 0px 60px rgba(0, 0, 0, 0.46);
     font-size: 60px;
     font-weight: 700;
-    line-height: 1.5;  
+    line-height: 1.5;
 }
 
-.become-text{
+.become-text {
     color: var(--main-color);
     text-align: center;
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.50);
@@ -119,7 +137,7 @@ color: var(--accent-color);
     line-height: normal;
 }
 
-.become-btn{
+.become-btn {
     color: var(--main-color);
     text-align: center;
     font-size: 16px;
@@ -129,27 +147,29 @@ color: var(--accent-color);
     background-color: var(--accent-color);
 }
 
-.premium-title{
+.premium-title {
     color: var(--accent-color);
-font-size: 40px;
-font-weight: 700;
-line-height: 1.5;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
 }
 
-.premium-text{
+.premium-text {
     color: var(--text-color);
-font-size: 16px;
-font-weight: 400;
-line-height: 2.31; /* 231.25% */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.31;
+    /* 231.25% */
 }
 
-.premium-btn{
+.premium-btn {
     border-radius: 38.5px;
-border: 2px solid var(--accent-color);
-color: var(--accent-color);
+    border: 2px solid var(--accent-color);
+    color: var(--accent-color);
 
-text-align: center;
-font-size: 16px;
-font-weight: 600;
-line-height: 2.31; /* 231.25% */
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 2.31;
+    /* 231.25% */
 }
