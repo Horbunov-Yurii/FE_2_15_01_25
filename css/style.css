@@ -4,10 +4,11 @@
     --main-color: #FFFFFF;
     --text-color: #424242;
     --avtor2-color: #969BAB;
+
 }
 
 body {
-    background-color: bisque;
+    /* background-color:  */
     font-family: Poppins;
 }
 
@@ -23,11 +24,12 @@ body {
 /* section header */
 
 .header {
-
+background-color: var(--accent-color);
 padding-top: 25px;
 padding-bottom: 26px;
 
 }
+
 
 
 
@@ -65,6 +67,12 @@ padding-bottom: 26px;
 }
 
 /* section hero */
+
+.hero{
+    padding-top: 241px;
+    padding-bottom: 202px;
+}
+
 .hero-title {
     color: var(--main-color);
     text-align: center;
@@ -89,6 +97,13 @@ padding-bottom: 26px;
 }
 
 /* section meet */
+
+.meet{
+    background-color: var(--main-color);
+    padding-top: 95px;
+    padding-bottom: 122px;
+}
+
 
 .meet-title {
     color: var(--accent-color);
@@ -118,6 +133,13 @@ padding-bottom: 26px;
 }
 
 /* section become */
+
+.become{
+    padding-top: 231px;
+    padding-bottom: 247px;
+}
+
+
 .become-title {
     color: var(--main-color);
     text-align: center;
@@ -147,6 +169,13 @@ padding-bottom: 26px;
     background-color: var(--accent-color);
 }
 
+
+.premium{
+    padding-top: 224px;
+    padding-bottom: 129px;
+}
+
+
 .premium-title {
     color: var(--accent-color);
     font-size: 40px;
@@ -172,4 +201,55 @@ padding-bottom: 26px;
     font-weight: 600;
     line-height: 2.31;
     /* 231.25% */
+}
+.story{
+    padding-top: 126px;
+    padding-bottom: 81px;
+}
+.story-title{
+    color: var(--text-color);
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 1.19;
+        /* 57.216px */
+
+}
+
+.story-text{
+color: var(--text-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.story-subtitle{
+    color: var(--accent-color);
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 1.19;
+        /* 45.296px */
+}
+
+.story-desk{
+    color:var(--text-color);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.77;
+        /* 177.778% */
+}
+
+.story-name{
+    color: var(--text-color);
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.89;
+        /* 188.889% */
+}
+.story-mather{
+    color:var(--avtor2-color);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 2.42;
+        /* 242.857% */
+    
 }
