@@ -1,4 +1,4 @@
-:root {
+ :root {
     --accent-color: #E43071;
     --accent-text: #FFC1D8;
     --main-color: #FFFFFF;
@@ -169,8 +169,10 @@ margin-bottom: 20px;
 /* section become */
 
 .become{
+    background-color: #424242;
     padding-top: 231px;
     padding-bottom: 247px;
+    text-align: center;
 }
 
 
@@ -181,9 +183,11 @@ margin-bottom: 20px;
     font-size: 60px;
     font-weight: 700;
     line-height: 1.5;
+    margin-bottom: 20px;
 }
 
 .become-text {
+    width: 450px;
     color: var(--main-color);
     text-align: center;
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.50);
@@ -191,6 +195,9 @@ margin-bottom: 20px;
     font-size: 17px;
     font-weight: 600;
     line-height: normal;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
 .become-btn {
@@ -201,6 +208,8 @@ margin-bottom: 20px;
     line-height: 2.31;
     /* 231.25% */
     background-color: var(--accent-color);
+    padding: 15px 77px 16px 78px;
+    border-radius: 38.5px;
 }
 
 
