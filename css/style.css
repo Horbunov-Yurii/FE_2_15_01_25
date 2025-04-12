@@ -84,8 +84,10 @@ padding-bottom: 26px;
 /* section hero */
 
 .hero{
+    background-color: rgb(84, 63, 37);
     padding-top: 241px;
     padding-bottom: 202px;
+    text-align:center ;
 }
 
 .hero-title {
@@ -94,6 +96,10 @@ padding-bottom: 26px;
     font-size: 70px;
     font-weight: 700;
     line-height: 1.1;
+    width: 700px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
     /* 77px */
 }
 
@@ -109,6 +115,8 @@ padding-bottom: 26px;
     font-weight: 600;
     line-height: 2.31;
     background-color: var(--accent-color);
+    padding: 14px 56px 17px 56px;
+    border-radius: 38.5px;
 }
 
 /* section meet */
