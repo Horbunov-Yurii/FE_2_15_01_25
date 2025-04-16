@@ -336,3 +336,35 @@ color: var(--text-color);
 .story-item:nth-child(3){
     height: 278px;
 }
+
+.app{
+    padding-top: 112px;
+    padding-bottom: 76px;
+background-color: var(--accent-color);
+}
+
+.app-title{
+    color:var(--main-color);
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.5;
+        margin-bottom: 20px;
+}
+.app-text{
+    width: 489px;
+    color: var(--main-color);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.31;
+        /* 231.25% */
+}
+.app-description{
+    color:var(--avtor2-color);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+}
+
