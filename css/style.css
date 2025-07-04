@@ -4,7 +4,12 @@
     --main-color: #FFFFFF;
     --text-color: #424242;
     --avtor2-color: #969BAB;
-
+    --become-bg:rgba(57, 57, 57, 0.22);
+    --gradient-color:#F4E3E9;
+    --gradient-color2:rgba(45, 40, 36, 0.20);
+    --bg-social:#EDEDED;
+    --bg-footer:#0B0D17;
+    --footer-text:#D9DBE1;
 }
 
 body {
@@ -15,7 +20,7 @@ body {
 .container {
     width: 1176px;
     margin: 0 auto;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     padding-left: 23px;
     padding-right: 23px;
 
@@ -80,6 +85,15 @@ padding-bottom: 26px;
     margin-left: auto;
     /* 17.52px */
 }
+.header-links{
+    display: flex;
+    gap: 6px;
+}
+.header-icon{
+    width: 20.121px;
+        height: 19.285px;
+        fill: var(--main-color);
+}
 
 /* section hero */
 
@@ -88,7 +102,7 @@ padding-bottom: 26px;
     padding-top: 241px;
     padding-bottom: 202px;
     text-align:center ;
-    background-image: url(../img/femail.jpg);
+    background-image:linear-gradient(var(--gradient-color2),var(--gradient-color2)), url(../img/femail.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -104,7 +118,7 @@ padding-bottom: 26px;
     line-height: 1.1;
     width: 700px;
     margin: 0 auto;
-    margin-bottom: 8px;
+    margin-bottom: 21px;
     /* 77px */
 }
 
@@ -170,11 +184,17 @@ padding-bottom: 26px;
     border: 2px solid var(--accent-color);
     padding: 15px 65px 16px 65px;
 }
-
+.meet-img2{
+    width: 241px;
+    height: 359px;
+}
 /* section become */
 
 .become{
-    background-color: #424242;
+    background-image: linear-gradient(var(--become-bg),var(--become-bg)), url(../img/sport-femail.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-top: 231px;
     padding-bottom: 247px;
     text-align: center;
@@ -247,6 +267,7 @@ padding-bottom: 26px;
 }
 
 .premium-btn {
+    background: #00000000;
     border-radius: 38.5px;
     border: 2px solid var(--accent-color);
     color: var(--accent-color);
@@ -258,6 +279,7 @@ padding-bottom: 26px;
     padding: 15px 72px;
 }
 .story{
+    background-image: linear-gradient(180deg, var(--main-color),var(--gradient-color));
     padding-top: 126px;
     padding-bottom: 81px;
 }
@@ -320,7 +342,7 @@ color: var(--text-color);
 }
 .story-item{
     padding: 35px 32px 38px 27px;
-    background-color: #55cb7c;
+    background-color: var(--main-color);
     /* width: 349px;
     height: 445px; */
     border-radius: 10px;
@@ -372,4 +394,196 @@ background-color: var(--accent-color);
         font-weight: 400;
         line-height: 1.5;
 }
-
+.app-icon{
+    width: 135px;
+    height: 40px;
+}
+.app-list{
+    display: flex;
+    gap: 12px;
+    margin-top: 9px;
+}
+.app-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.app-lists{
+    display: flex;
+}
+.social{
+    background-color: var(--bg-social);
+    padding: 60px 0 71px 0;
+}
+.social-title{
+    color: var(--accent-color);
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1.5;
+}
+.social-icon{
+    width: 24.831px;
+        height: 29.916px;
+        fill: var(--accent-color);
+}
+.social-link{
+    width: 110px;
+    background-color: var(--main-color);
+    border-radius: 100px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+.social-item:nth-child(2){
+    margin-left: 93px;
+    margin-right: 87px;
+}
+.footer{
+    background-color: var(--bg-footer);
+    padding: 96px 0 24px 0;
+}
+.footer-subtitle2{
+    color: var(--footer-text);
+        font-feature-settings: 'liga' off;
+        /* Body / Body 2 */
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.71;
+        /* 171.429% */
+}
+.footer-subtitle{
+    width: 255px;
+    color: var(--footer-text);
+        font-feature-settings: 'liga' off;
+    
+        /* Body / Body 2 */
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.71;
+        /* 171.429% */
+}
+.footer-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-logo{
+    color: var(--main-color);
+        text-align: center;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 1.09;
+        margin-right: 172px;
+        /* 43.8px */
+}
+.footer-color{
+    color: var(--accent-color);
+}
+.footer-icon{
+    width: 24px;
+        height: 24px;
+}
+.footer-link{
+    color: var(--footer-text);
+        font-feature-settings: 'liga' off;
+    
+        /* Body / Body 2 */
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.71;
+        /* 171.429% */
+}
+.footer-title{
+    color: var(--main-color);
+        font-feature-settings: 'liga' off;
+    
+        /* Heading / H6 */
+        font-family: Manrope;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.5;
+        /* 150% */
+        margin-bottom: 12px;
+}
+.footer-contact{
+    fill: var(--accent-color);
+}
+.footer-contact1{
+    width: 20px;
+    height: 18px;
+}
+.footer-contact2 {
+    width: 20px;
+    height: 20px;
+}
+.footer-contact3{
+    width: 17px;
+    height: 20px;
+}
+.footer-box{
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    margin-bottom: 103px;
+}
+.footer-lists{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 24px;
+}
+.footer-item:first-child{
+    width: 120px;
+}
+.footer-list1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 12px;
+    margin-left: 40px;
+    margin-right: 131px;
+}
+.footer-list2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 12px;
+    margin-right: 150px;
+}
+.footer-list3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 12px;
+}
+.footer-link2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.footer-link3{
+    width: 200px;
+}
