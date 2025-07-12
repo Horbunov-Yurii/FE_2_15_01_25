@@ -66,6 +66,20 @@ body {
   line-height: 1.09;
   /* 17.52px */
 }
+.header-item:not(:last-child){
+  position: relative;
+  .header-link:is(:hover, :focus):after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 4px;
+      border-radius: 2px;
+      background: var(--main-color);
+      position: absolute;
+      bottom: -40px;
+    }
+}
+
 
 .header-btn {
   background-color: var(--main-color);
