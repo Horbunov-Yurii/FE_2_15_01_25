@@ -15,6 +15,7 @@
 body {
   /* background-color:  */
   font-family: Poppins;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -130,6 +131,12 @@ body {
   width: 700px;
   margin: 0 auto;
   margin-bottom: 21px;
+  background-clip: text;
+  color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://64.media.tumblr.com/a7d100aabe2033b2fff1b7d5bf6af05f/tumblr_nlprx4nuGI1relaado1_400.gifv);
+  
   /* 77px */
 }
 
@@ -753,4 +760,23 @@ body {
 .model-input:hover + .model-ikon,
 .model-input:focus + .model-ikon{
     fill: var(--accent-color);
+}
+
+.scroll{
+  border-radius: 50%;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  bottom: 50px;
+  right: 50px;
+  background-color: var(--accent-color);
+  width: 40px;
+  height: 40px;
+}
+
+.scroll-icon{
+  width: 30px;
+  height: 30px;
+  fill: var(--main-color);
 }
