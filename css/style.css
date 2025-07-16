@@ -431,6 +431,15 @@ body {
 .app-lists {
   display: flex;
 }
+
+.app-items:first-child{
+  transform: translateY(-155px) ;
+}
+
+.app-items:nth-child(2){
+ transform: translateY(202px);
+}
+
 .social {
   background-color: var(--bg-social);
   padding: 60px 0 71px 0;
