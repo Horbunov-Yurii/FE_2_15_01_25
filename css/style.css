@@ -65,21 +65,36 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.09;
+  transition-property: color;
+  transition-duration: 2000ms;
   /* 17.52px */
 }
+.header-link:hover{
+  color: gold;
+
+}
+
 .header-item:not(:last-child){
   position: relative;
-  .header-link:is(:hover, :focus):after {
+  .header-link:after {
+    transition-property: opacity;
+    transition-duration: 2000ms;
       content: "";
       display: block;
       width: 100%;
       height: 4px;
       border-radius: 2px;
-      background: var(--main-color);
+      background: gold;
       position: absolute;
       bottom: -40px;
+      opacity: 0;
     }
 }
+
+.header-item:not(:last-child){
+  .header-link:hover:after  {
+    opacity: 1;
+    }}
 
 
 .header-btn {
@@ -92,7 +107,14 @@ body {
   padding: 16px 61px;
   border-radius: 200px;
   margin-left: auto;
+  transition-property: background-color,color,outline;
+  transition-duration: 2000ms;
   /* 17.52px */
+}
+.header-btn:hover{
+  background-color: transparent;
+  color: gold;
+  outline: 1px solid gold;
 }
 .header-links {
   display: flex;
