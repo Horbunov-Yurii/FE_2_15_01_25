@@ -183,7 +183,7 @@ body {
 .meet {
   background-color: var(--main-color);
   padding-top: 95px;
-  padding-bottom: 122px;
+  padding-bottom: 226px;
 }
 
 .meet-box {
@@ -193,6 +193,10 @@ body {
 
 .meet-list {
   display: flex;
+}
+
+.meet-item:last-child{
+  transform: translate(-150px, 150px);
 }
 
 .meet-title {
@@ -657,6 +661,11 @@ body {
   pointer-events: none;
 }
 
+.is-hidden .model{
+  /* transform: translate(0) rotate(720deg) scale(0); */
+  transform: translate(-50%, -1000px) scale(-2) skew(30deg, 30deg);
+}
+
 .model {
   background-color: #ffffff;
   width: 528px;
@@ -669,6 +678,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 40px;
+  transition-property: transform;
+  transition-duration: 2000ms;
 }
 
 .model-close {
