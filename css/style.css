@@ -21,7 +21,7 @@ body {
 .container {
   width: 1176px;
   margin: 0 auto;
-  /* outline: 1px solid red; */
+  outline: 1px solid red; 
   padding-left: 23px;
   padding-right: 23px;
 }
@@ -320,6 +320,9 @@ body {
   line-height: 2.31;
   /* 231.25% */
   padding: 15px 72px;
+}
+.premium-item:first-child{
+  transform: translate(-150px, 140px);
 }
 .story {
   background-image: linear-gradient(
