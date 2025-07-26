@@ -331,7 +331,7 @@ body {
     var(--gradient-color)
   );
   padding-top: 126px;
-  padding-bottom: 81px;
+  padding-bottom: 149px;
 }
 .story-title {
   width: 414px;
@@ -395,7 +395,10 @@ body {
     height: 445px; */
   border-radius: 10px;
   box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18);
+  transform: translateX(130px)
 }
+
+
 .story-wrap {
   display: flex;
   gap: 17px;
@@ -404,12 +407,16 @@ body {
   /* width: 335px; */
   height: 360px;
   padding: 46px 32px 45px 34px;
+  transform: translate(130px,-150px);
+
   .story-desk {
     width: 353px;
   }
 }
 .story-item:nth-child(3) {
+ flex-basis: 500px;
   height: 278px;
+  transform: translate(-315px,250px);
 }
 
 .app {
