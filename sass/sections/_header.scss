@@ -2,15 +2,15 @@
   background-color: $accent-color;
   padding-top: 25px;
   padding-bottom: 26px;
-}
 
-.header-box {
+  &__box {
   display: flex;
   align-items: center;
   width: 1407px;
 }
 
-.header-logo {
+
+&__logo {
   color: $main-color;
   text-align: center;
   font-size: 40px;
@@ -20,16 +20,16 @@
   /* 43.8px */
 }
 
-.header-color {
+&__color {
   color: $accent-text;
 }
 
-.header-list {
+&__list {
   display: flex;
   gap: 76px;
 }
 
-.header-link {
+&__link {
   color: $main-color;
   text-align: center;
   font-size: 16px;
@@ -38,15 +38,17 @@
   transition-property: color;
   transition-duration: 2000ms;
   /* 17.52px */
-}
-.header-link:hover{
+
+  &:hover{
   color: gold;
 
 }
+}
 
-.header-item:not(:last-child){
+&__item{
+&:not(:last-child){
   position: relative;
-  .header-link:after {
+  .header__link:after {
     transition-property: opacity;
     transition-duration: 2000ms;
       content: "";
@@ -61,13 +63,17 @@
     }
 }
 
-.header-item:not(:last-child){
-  .header-link:hover:after  {
+&:not(:last-child){
+  .header__link:hover:after  {
     opacity: 1;
     }}
+}
 
 
-.header-btn {
+
+
+
+&__btn {
   background-color: $main-color;
   color: $accent-color;
   text-align: center;
@@ -80,18 +86,47 @@
   transition-property: background-color,color,outline;
   transition-duration: 2000ms;
   /* 17.52px */
-}
-.header-btn:hover{
+
+  &:hover{
   background-color: transparent;
   color: gold;
   outline: 1px solid gold;
 }
-.header-links {
+}
+
+
+&__links {
   display: flex;
   gap: 6px;
 }
-.header-icon {
+
+&__icon {
   width: 20.121px;
   height: 19.285px;
   fill: $main-color;
 }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

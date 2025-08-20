@@ -40,14 +40,12 @@ body {
   padding-top: 25px;
   padding-bottom: 26px;
 }
-
-.header-box {
+.header__box {
   display: flex;
   align-items: center;
   width: 1407px;
 }
-
-.header-logo {
+.header__logo {
   color: #ffffff;
   text-align: center;
   font-size: 40px;
@@ -56,17 +54,14 @@ body {
   margin-right: 172px;
   /* 43.8px */
 }
-
-.header-color {
+.header__color {
   color: #ffc1d8;
 }
-
-.header-list {
+.header__list {
   display: flex;
   gap: 76px;
 }
-
-.header-link {
+.header__link {
   color: #ffffff;
   text-align: center;
   font-size: 16px;
@@ -76,15 +71,13 @@ body {
   transition-duration: 2000ms;
   /* 17.52px */
 }
-
-.header-link:hover {
+.header__link:hover {
   color: gold;
 }
-
-.header-item:not(:last-child) {
+.header__item:not(:last-child) {
   position: relative;
 }
-.header-item:not(:last-child) .header-link:after {
+.header__item:not(:last-child) .header__link:after {
   transition-property: opacity;
   transition-duration: 2000ms;
   content: "";
@@ -97,12 +90,10 @@ body {
   bottom: -40px;
   opacity: 0;
 }
-
-.header-item:not(:last-child) .header-link:hover:after {
+.header__item:not(:last-child) .header__link:hover:after {
   opacity: 1;
 }
-
-.header-btn {
+.header__btn {
   background-color: #ffffff;
   color: #e43071;
   text-align: center;
@@ -116,19 +107,16 @@ body {
   transition-duration: 2000ms;
   /* 17.52px */
 }
-
-.header-btn:hover {
+.header__btn:hover {
   background-color: transparent;
   color: gold;
   outline: 1px solid gold;
 }
-
-.header-links {
+.header__links {
   display: flex;
   gap: 6px;
 }
-
-.header-icon {
+.header__icon {
   width: 20.121px;
   height: 19.285px;
   fill: #ffffff;
@@ -145,8 +133,7 @@ body {
   background-size: cover;
   text-align: center;
 }
-
-.hero-title {
+.hero__title {
   color: #ffffff;
   text-align: center;
   font-size: 70px;
@@ -168,22 +155,10 @@ body {
   animation-iteration-count: infinite;
   /* 77px */
 }
-
-@keyframes herotitlemove {
-  0% {
-    transform-origin: bottom left;
-    transform: translateX(-30px) rotate(1deg);
-  }
-  100% {
-    transform-origin: bottom right;
-    transform: translateX(30px) rotate(-1deg);
-  }
-}
-.hero-span {
+.hero__span {
   color: #ffc1d8;
 }
-
-.hero-btn {
+.hero__btn {
   color: #ffffff;
   text-align: center;
   font-family: "Open Sans";
@@ -200,6 +175,16 @@ body {
   animation-iteration-count: infinite;
 }
 
+@keyframes herotitlemove {
+  0% {
+    transform-origin: bottom left;
+    transform: translateX(-30px) rotate(1deg);
+  }
+  100% {
+    transform-origin: bottom right;
+    transform: translateX(30px) rotate(-1deg);
+  }
+}
 @keyframes herobtnchange {
   0% {
     transform: scale(0.9);

@@ -12,9 +12,8 @@
   background-position: center;
   background-size: cover;
   text-align: center;
-}
 
-.hero-title {
+  &__title {
   color: $main-color;
   text-align: center;
   font-size: 70px;
@@ -36,22 +35,12 @@
   /* 77px */
 }
 
-@keyframes herotitlemove{
-  0%{
-    transform-origin: bottom left;
-    transform: translateX(-30px) rotate(1deg);
-  }
-  100%{
-    transform-origin: bottom right;
-    transform: translateX(30px) rotate(-1deg);
-  }
-}
 
-.hero-span {
+&__span {
   color: $accent-text;
 }
 
-.hero-btn {
+&__btn {
   color: $main-color;
   text-align: center;
   font-family: "Open Sans";
@@ -67,6 +56,25 @@
   animation-direction: alternate;
   animation-iteration-count: infinite;
 }
+
+
+}
+
+
+
+@keyframes herotitlemove{
+  0%{
+    transform-origin: bottom left;
+    transform: translateX(-30px) rotate(1deg);
+  }
+  100%{
+    transform-origin: bottom right;
+    transform: translateX(30px) rotate(-1deg);
+  }
+}
+
+
+
 
 @keyframes herobtnchange{
   0%{
