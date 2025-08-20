@@ -1,0 +1,46 @@
+.become {
+  background-image: linear-gradient(var(--become-bg), var(--become-bg)),
+    url(../img/sport-femail.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 231px;
+  padding-bottom: 247px;
+  text-align: center;
+}
+
+.become-title {
+  color: var(--main-color);
+  text-align: center;
+  text-shadow: 0px 0px 60px rgba(0, 0, 0, 0.46);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.become-text {
+  width: 450px;
+  color: var(--main-color);
+  text-align: center;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.become-btn {
+  color: var(--main-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 2.31;
+  /* 231.25% */
+  background-color: var(--accent-color);
+  padding: 15px 77px 16px 78px;
+  border-radius: 38.5px;
+}

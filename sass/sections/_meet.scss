@@ -1,0 +1,52 @@
+.meet {
+  background-color: var(--main-color);
+  padding-top: 95px;
+  padding-bottom: 226px;
+}
+
+.meet-box {
+  display: flex;
+  align-items: center;
+}
+
+.meet-list {
+  display: flex;
+}
+
+.meet-item:last-child{
+  transform: translate(-150px, 150px);
+}
+
+.meet-title {
+  color: var(--accent-color);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.meet-text {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2.31;
+  margin-bottom: 30px;
+  /* 231.25% */
+}
+
+.meet-btn {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 2.31;
+  /* 231.25% */
+  background-color: var(--main-color);
+  border-radius: 38.5px;
+  border: 2px solid var(--accent-color);
+  padding: 15px 65px 16px 65px;
+}
+.meet-img2 {
+  width: 241px;
+  height: 359px;
+}

@@ -1,0 +1,84 @@
+.hero {
+  background-color: rgb(84, 63, 37);
+  padding-top: 241px;
+  padding-bottom: 202px;
+  text-align: center;
+  background-image: linear-gradient(
+      var(--gradient-color2),
+      var(--gradient-color2)
+    ),
+    url(../img/femail.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--main-color);
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 1.1;
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 21px;
+  background-clip: text;
+  color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://64.media.tumblr.com/a7d100aabe2033b2fff1b7d5bf6af05f/tumblr_nlprx4nuGI1relaado1_400.gifv);
+  animation-name: herotitlemove;
+  animation-duration: 1500ms;
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  /* 77px */
+}
+
+@keyframes herotitlemove{
+  0%{
+    transform-origin: bottom left;
+    transform: translateX(-30px) rotate(1deg);
+  }
+  100%{
+    transform-origin: bottom right;
+    transform: translateX(30px) rotate(-1deg);
+  }
+}
+
+.hero-span {
+  color: var(--accent-text);
+}
+
+.hero-btn {
+  color: var(--main-color);
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 2.31;
+  background-color: var(--accent-color);
+  border-radius: 38.5px;
+  padding: 14px 56px 17px 56px;
+  animation-name: herobtnchange;
+  animation-duration: 1500ms;
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes herobtnchange{
+  0%{
+    transform: scale(0.9);
+    border-radius: 38.5px;
+  }
+  50%{
+    transform: scale(1);
+    border-radius: 10px;
+  }
+  100%{
+    transform: scale(1.1);
+    border-radius: 50px;
+  }
+}
