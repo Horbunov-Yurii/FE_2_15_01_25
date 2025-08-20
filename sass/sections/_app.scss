@@ -1,11 +1,11 @@
 .app {
   padding-top: 112px;
   padding-bottom: 76px;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .app-title {
-  color: var(--main-color);
+  color: $main-color;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -14,7 +14,7 @@
 }
 .app-text {
   width: 489px;
-  color: var(--main-color);
+  color: $main-color;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -22,7 +22,7 @@
   /* 231.25% */
 }
 .app-description {
-  color: var(--avtor2-color);
+  color: $avtor2-color;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;

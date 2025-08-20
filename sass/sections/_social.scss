@@ -1,9 +1,9 @@
 .social {
-  background-color: var(--bg-social);
+  background-color: $bg-social;
   padding: 60px 0 71px 0;
 }
 .social-title {
-  color: var(--accent-color);
+  color: $accent-color;
   text-align: center;
   font-size: 40px;
   font-weight: 700;
@@ -12,11 +12,11 @@
 .social-icon {
   width: 24.831px;
   height: 29.916px;
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 .social-link {
   width: 110px;
-  background-color: var(--main-color);
+  background-color: $main-color;
   border-radius: 100px;
   padding: 40px;
   display: flex;

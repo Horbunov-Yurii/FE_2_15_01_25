@@ -21,20 +21,6 @@ img {
   display: block;
 }
 
-:root {
-  --accent-color: #e43071;
-  --accent-text: #ffc1d8;
-  --main-color: #ffffff;
-  --text-color: #424242;
-  --avtor2-color: #969bab;
-  --become-bg: rgba(57, 57, 57, 0.22);
-  --gradient-color: #f4e3e9;
-  --gradient-color2: rgba(45, 40, 36, 0.2);
-  --bg-social: #ededed;
-  --bg-footer: #0b0d17;
-  --footer-text: #d9dbe1;
-}
-
 body {
   /* background-color:  */
   font-family: Poppins;
@@ -50,7 +36,7 @@ body {
 }
 
 .header {
-  background-color: var(--accent-color);
+  background-color: #e43071;
   padding-top: 25px;
   padding-bottom: 26px;
 }
@@ -62,7 +48,7 @@ body {
 }
 
 .header-logo {
-  color: var(--main-color);
+  color: #ffffff;
   text-align: center;
   font-size: 40px;
   font-weight: 800;
@@ -72,7 +58,7 @@ body {
 }
 
 .header-color {
-  color: var(--accent-text);
+  color: #ffc1d8;
 }
 
 .header-list {
@@ -81,7 +67,7 @@ body {
 }
 
 .header-link {
-  color: var(--main-color);
+  color: #ffffff;
   text-align: center;
   font-size: 16px;
   font-weight: 400;
@@ -117,8 +103,8 @@ body {
 }
 
 .header-btn {
-  background-color: var(--main-color);
-  color: var(--accent-color);
+  background-color: #ffffff;
+  color: #e43071;
   text-align: center;
   font-size: 16px;
   font-weight: 400;
@@ -145,7 +131,7 @@ body {
 .header-icon {
   width: 20.121px;
   height: 19.285px;
-  fill: var(--main-color);
+  fill: #ffffff;
 }
 
 .hero {
@@ -153,7 +139,7 @@ body {
   padding-top: 241px;
   padding-bottom: 202px;
   text-align: center;
-  background-image: linear-gradient(var(--gradient-color2), var(--gradient-color2)), url(../img/femail.jpg);
+  background-image: linear-gradient(rgba(45, 40, 36, 0.2), rgba(45, 40, 36, 0.2)), url(../img/femail.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -161,7 +147,7 @@ body {
 }
 
 .hero-title {
-  color: var(--main-color);
+  color: #ffffff;
   text-align: center;
   font-size: 70px;
   font-weight: 700;
@@ -194,17 +180,17 @@ body {
   }
 }
 .hero-span {
-  color: var(--accent-text);
+  color: #ffc1d8;
 }
 
 .hero-btn {
-  color: var(--main-color);
+  color: #ffffff;
   text-align: center;
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 600;
   line-height: 2.31;
-  background-color: var(--accent-color);
+  background-color: #e43071;
   border-radius: 38.5px;
   padding: 14px 56px 17px 56px;
   animation-name: herobtnchange;
@@ -229,7 +215,7 @@ body {
   }
 }
 .meet {
-  background-color: var(--main-color);
+  background-color: #ffffff;
   padding-top: 95px;
   padding-bottom: 226px;
 }
@@ -248,7 +234,7 @@ body {
 }
 
 .meet-title {
-  color: var(--accent-color);
+  color: #e43071;
   font-size: 40px;
   font-weight: 700;
   line-height: 1.5;
@@ -256,7 +242,7 @@ body {
 }
 
 .meet-text {
-  color: var(--text-color);
+  color: #424242;
   font-size: 16px;
   font-weight: 400;
   line-height: 2.31;
@@ -265,15 +251,15 @@ body {
 }
 
 .meet-btn {
-  color: var(--accent-color);
+  color: #e43071;
   text-align: center;
   font-size: 16px;
   font-weight: 600;
   line-height: 2.31;
   /* 231.25% */
-  background-color: var(--main-color);
+  background-color: #ffffff;
   border-radius: 38.5px;
-  border: 2px solid var(--accent-color);
+  border: 2px solid #e43071;
   padding: 15px 65px 16px 65px;
 }
 
@@ -283,7 +269,7 @@ body {
 }
 
 .become {
-  background-image: linear-gradient(var(--become-bg), var(--become-bg)), url(../img/sport-femail.webp);
+  background-image: linear-gradient(rgba(57, 57, 57, 0.22), rgba(57, 57, 57, 0.22)), url(../img/sport-femail.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -293,7 +279,7 @@ body {
 }
 
 .become-title {
-  color: var(--main-color);
+  color: #ffffff;
   text-align: center;
   text-shadow: 0px 0px 60px rgba(0, 0, 0, 0.46);
   font-size: 60px;
@@ -304,7 +290,7 @@ body {
 
 .become-text {
   width: 450px;
-  color: var(--main-color);
+  color: #ffffff;
   text-align: center;
   text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
   font-family: "Open Sans";
@@ -317,13 +303,13 @@ body {
 }
 
 .become-btn {
-  color: var(--main-color);
+  color: #ffffff;
   text-align: center;
   font-size: 16px;
   font-weight: 600;
   line-height: 2.31;
   /* 231.25% */
-  background-color: var(--accent-color);
+  background-color: #e43071;
   padding: 15px 77px 16px 78px;
   border-radius: 38.5px;
 }
@@ -340,7 +326,7 @@ body {
 }
 
 .premium-title {
-  color: var(--accent-color);
+  color: #e43071;
   font-size: 40px;
   font-weight: 700;
   line-height: 1.5;
@@ -348,7 +334,7 @@ body {
 }
 
 .premium-text {
-  color: var(--text-color);
+  color: #424242;
   font-size: 16px;
   font-weight: 400;
   line-height: 2.31;
@@ -360,8 +346,8 @@ body {
 .premium-btn {
   background: rgba(0, 0, 0, 0);
   border-radius: 38.5px;
-  border: 2px solid var(--accent-color);
-  color: var(--accent-color);
+  border: 2px solid #e43071;
+  color: #e43071;
   text-align: center;
   font-size: 16px;
   font-weight: 600;
@@ -375,14 +361,14 @@ body {
 }
 
 .story {
-  background-image: linear-gradient(180deg, var(--main-color), var(--gradient-color));
+  background-image: linear-gradient(180deg, #ffffff, #f4e3e9);
   padding-top: 126px;
   padding-bottom: 149px;
 }
 
 .story-title {
   width: 414px;
-  color: var(--text-color);
+  color: #424242;
   font-size: 48px;
   font-weight: 600;
   line-height: 1.19;
@@ -391,7 +377,7 @@ body {
 }
 
 .story-text {
-  color: var(--text-color);
+  color: #424242;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
@@ -399,7 +385,7 @@ body {
 }
 
 .story-subtitle {
-  color: var(--accent-color);
+  color: #e43071;
   font-size: 38px;
   font-weight: 600;
   line-height: 1.19;
@@ -408,7 +394,7 @@ body {
 }
 
 .story-desk {
-  color: var(--text-color);
+  color: #424242;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.77;
@@ -418,7 +404,7 @@ body {
 }
 
 .story-name {
-  color: var(--text-color);
+  color: #424242;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.89;
@@ -426,7 +412,7 @@ body {
 }
 
 .story-mather {
-  color: var(--avtor2-color);
+  color: #969bab;
   font-size: 14px;
   font-weight: 400;
   line-height: 2.42;
@@ -440,7 +426,7 @@ body {
 
 .story-item {
   padding: 35px 32px 38px 27px;
-  background-color: var(--main-color);
+  background-color: #ffffff;
   /* width: 349px;
     height: 445px; */
   border-radius: 10px;
@@ -472,11 +458,11 @@ body {
 .app {
   padding-top: 112px;
   padding-bottom: 76px;
-  background-color: var(--accent-color);
+  background-color: #e43071;
 }
 
 .app-title {
-  color: var(--main-color);
+  color: #ffffff;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -486,7 +472,7 @@ body {
 
 .app-text {
   width: 489px;
-  color: var(--main-color);
+  color: #ffffff;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -495,7 +481,7 @@ body {
 }
 
 .app-description {
-  color: var(--avtor2-color);
+  color: #969bab;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -533,12 +519,12 @@ body {
 }
 
 .social {
-  background-color: var(--bg-social);
+  background-color: #ededed;
   padding: 60px 0 71px 0;
 }
 
 .social-title {
-  color: var(--accent-color);
+  color: #e43071;
   text-align: center;
   font-size: 40px;
   font-weight: 700;
@@ -548,12 +534,12 @@ body {
 .social-icon {
   width: 24.831px;
   height: 29.916px;
-  fill: var(--accent-color);
+  fill: #e43071;
 }
 
 .social-link {
   width: 110px;
-  background-color: var(--main-color);
+  background-color: #ffffff;
   border-radius: 100px;
   padding: 40px;
   display: flex;
@@ -574,12 +560,12 @@ body {
 }
 
 .footer {
-  background-color: var(--bg-footer);
+  background-color: #0b0d17;
   padding: 96px 0 24px 0;
 }
 
 .footer-subtitle2 {
-  color: var(--footer-text);
+  color: #d9dbe1;
   font-feature-settings: "liga" off;
   /* Body / Body 2 */
   font-family: Manrope;
@@ -591,7 +577,7 @@ body {
 
 .footer-subtitle {
   width: 255px;
-  color: var(--footer-text);
+  color: #d9dbe1;
   font-feature-settings: "liga" off;
   /* Body / Body 2 */
   font-family: Manrope;
@@ -608,7 +594,7 @@ body {
 }
 
 .footer-logo {
-  color: var(--main-color);
+  color: #ffffff;
   text-align: center;
   font-size: 40px;
   font-weight: 800;
@@ -618,7 +604,7 @@ body {
 }
 
 .footer-color {
-  color: var(--accent-color);
+  color: #e43071;
 }
 
 .footer-icon {
@@ -627,7 +613,7 @@ body {
 }
 
 .footer-link {
-  color: var(--footer-text);
+  color: #d9dbe1;
   font-feature-settings: "liga" off;
   /* Body / Body 2 */
   font-family: Manrope;
@@ -638,7 +624,7 @@ body {
 }
 
 .footer-title {
-  color: var(--main-color);
+  color: #ffffff;
   font-feature-settings: "liga" off;
   /* Heading / H6 */
   font-family: Manrope;
@@ -650,7 +636,7 @@ body {
 }
 
 .footer-contact {
-  fill: var(--accent-color);
+  fill: #e43071;
 }
 
 .footer-contact1 {
@@ -796,7 +782,7 @@ body {
 }
 
 .model-title {
-  color: var(--accent-text);
+  color: #ffc1d8;
   text-align: center;
   font-size: 20px;
   font-weight: 700;
@@ -848,7 +834,7 @@ body {
   font-size: 14px;
   line-height: 171%;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: #424242;
   display: flex;
   justify-content: center;
   margin-top: 20px;
@@ -876,7 +862,7 @@ body {
   text-align: center;
   color: #fff;
   padding: 10px 52px;
-  background-color: var(--accent-color);
+  background-color: #e43071;
 }
 
 .model-frap {
@@ -887,19 +873,19 @@ body {
 .model-ikon {
   width: 12px;
   height: 12px;
-  fill: var(--text-color);
+  fill: #424242;
   position: absolute;
   top: 35px;
   left: 15px;
 }
 
 .model-input:hover, .model-input:focus {
-  outline: 1px solid var(--accent-color);
+  outline: 1px solid #e43071;
 }
 
 .model-input:hover + .model-ikon,
 .model-input:focus + .model-ikon {
-  fill: var(--accent-color);
+  fill: #e43071;
 }
 
 .scroll {
@@ -910,7 +896,7 @@ body {
   display: flex;
   bottom: 50px;
   right: 50px;
-  background-color: var(--accent-color);
+  background-color: #e43071;
   width: 40px;
   height: 40px;
 }
@@ -918,5 +904,5 @@ body {
 .scroll-icon {
   width: 30px;
   height: 30px;
-  fill: var(--main-color);
+  fill: #ffffff;
 }/*# sourceMappingURL=main.css.map */

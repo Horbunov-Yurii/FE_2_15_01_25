@@ -1,5 +1,5 @@
 .meet {
-  background-color: var(--main-color);
+  background-color: $main-color;
   padding-top: 95px;
   padding-bottom: 226px;
 }
@@ -18,7 +18,7 @@
 }
 
 .meet-title {
-  color: var(--accent-color);
+  color: $accent-color;
   font-size: 40px;
   font-weight: 700;
   line-height: 1.5;
@@ -26,7 +26,7 @@
 }
 
 .meet-text {
-  color: var(--text-color);
+  color: $text-color;
   font-size: 16px;
   font-weight: 400;
   line-height: 2.31;
@@ -35,15 +35,15 @@
 }
 
 .meet-btn {
-  color: var(--accent-color);
+  color: $accent-color;
   text-align: center;
   font-size: 16px;
   font-weight: 600;
   line-height: 2.31;
   /* 231.25% */
-  background-color: var(--main-color);
+  background-color: $main-color;
   border-radius: 38.5px;
-  border: 2px solid var(--accent-color);
+  border: 2px solid $accent-color;
   padding: 15px 65px 16px 65px;
 }
 .meet-img2 {

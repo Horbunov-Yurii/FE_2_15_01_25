@@ -4,8 +4,8 @@
   padding-bottom: 202px;
   text-align: center;
   background-image: linear-gradient(
-      var(--gradient-color2),
-      var(--gradient-color2)
+      $gradient-color2,
+      $gradient-color2
     ),
     url(../img/femail.jpg);
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 }
 
 .hero-title {
-  color: var(--main-color);
+  color: $main-color;
   text-align: center;
   font-size: 70px;
   font-weight: 700;
@@ -48,17 +48,17 @@
 }
 
 .hero-span {
-  color: var(--accent-text);
+  color: $accent-text;
 }
 
 .hero-btn {
-  color: var(--main-color);
+  color: $main-color;
   text-align: center;
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 600;
   line-height: 2.31;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   border-radius: 38.5px;
   padding: 14px 56px 17px 56px;
   animation-name: herobtnchange;

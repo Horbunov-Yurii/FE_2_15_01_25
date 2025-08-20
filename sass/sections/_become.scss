@@ -1,5 +1,5 @@
 .become {
-  background-image: linear-gradient(var(--become-bg), var(--become-bg)),
+  background-image: linear-gradient($become-bg, $become-bg),
     url(../img/sport-femail.webp);
   background-repeat: no-repeat;
   background-position: center;
@@ -10,7 +10,7 @@
 }
 
 .become-title {
-  color: var(--main-color);
+  color: $main-color;
   text-align: center;
   text-shadow: 0px 0px 60px rgba(0, 0, 0, 0.46);
   font-size: 60px;
@@ -21,7 +21,7 @@
 
 .become-text {
   width: 450px;
-  color: var(--main-color);
+  color: $main-color;
   text-align: center;
   text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
   font-family: "Open Sans";
@@ -34,13 +34,13 @@
 }
 
 .become-btn {
-  color: var(--main-color);
+  color: $main-color;
   text-align: center;
   font-size: 16px;
   font-weight: 600;
   line-height: 2.31;
   /* 231.25% */
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   padding: 15px 77px 16px 78px;
   border-radius: 38.5px;
 }
